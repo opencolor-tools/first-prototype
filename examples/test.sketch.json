@@ -1,0 +1,22 @@
+{
+  "name": "aco-Palette",
+  "colorGroups": [
+    {
+      "name": "aco-Palette",
+      "colors": [
+        {
+          "name": "cool_color",
+          "hex": "#F0A499"
+        },
+        {
+          "name": "another_cool_color",
+          "hex": "#76836D"
+        },
+        {
+          "name": "yet_another_cool_color",
+          "hex": "#45424C"
+        }
+      ]
+    }
+  ]
+}

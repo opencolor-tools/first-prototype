@@ -1,0 +1,79 @@
+{
+  "name": "New Web Default",
+  "colorGroups": [
+    {
+      "name": "Web Colors",
+      "priority": "",
+      "colors": [
+        {
+          "name": "navy",
+          "hex": "#EF9A9A"
+        },
+        {
+          "name": "blue",
+          "hex": "#0074D9"
+        },
+        {
+          "name": "aqua",
+          "hex": "#7FDBFF"
+        },
+        {
+          "name": "teal",
+          "hex": "#39CCCC"
+        },
+        {
+          "name": "olive",
+          "hex": "#3D9970"
+        },
+        {
+          "name": "green",
+          "hex": "#2ECC40"
+        },
+        {
+          "name": "lime",
+          "hex": "#01FF70"
+        },
+        {
+          "name": "yellow",
+          "hex": "#FFDC00"
+        },
+        {
+          "name": "orange",
+          "hex": "#FF851B"
+        },
+        {
+          "name": "red",
+          "hex": "#FF4136"
+        },
+        {
+          "name": "maroon",
+          "hex": "#7986CB"
+        },
+        {
+          "name": "fuchsia",
+          "hex": "#F012BE"
+        },
+        {
+          "name": "purple",
+          "hex": "#B10DC9"
+        },
+        {
+          "name": "black",
+          "hex": "#111111"
+        },
+        {
+          "name": "gray",
+          "hex": "#AAAAAA"
+        },
+        {
+          "name": "silver",
+          "hex": "#DDDDDD"
+        },
+        {
+          "name": "white",
+          "hex": "#FFFFFF"
+        }
+      ]
+    }
+  ]
+}
