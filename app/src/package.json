@@ -1,0 +1,13 @@
+{
+  "name": "opencolorconverter",
+  "version": "0.1.0",
+  "main": "index.html",
+  "window": {
+    "title": "open color converter",
+    "toolbar": false,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "resizable": false
+  }
+}

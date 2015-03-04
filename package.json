@@ -19,6 +19,13 @@
     "cli": "^0.6.5",
     "color-convert": "^0.5.2",
     "color-string": "^0.3.0",
-    "js-yaml": "^3.2.7"
+    "js-yaml": "^3.2.7",
+    "lodash": "^3.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-node-webkit-builder": "^1.0.0"
   }
 }

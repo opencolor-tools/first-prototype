@@ -1,6 +1,7 @@
 var cli = require('cli')
-  ; importer = require('../lib/importer.js')
-  ; exporter = require('../lib/exporter.js')
+  , importer = require('../lib/importer.js')
+  , exporter = require('../lib/exporter.js')
+  ;
 
 cli.parse({
   verbose: ['v', 'Display Info'],

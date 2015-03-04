@@ -1,0 +1,52 @@
+html
+  box-sizing border-box
+
+*, *:before, *:after
+  box-sizing inherit;
+
+html
+  height 90%
+body
+  height 100%
+  background #CCC
+  padding 20px
+  font-family Helvetica Neue
+  text-align center
+
+.main
+  height 100%
+  background-color #EEE
+
+  &.user-is-dragging-over
+    background-color #FFF
+
+  &.user-dropped-file
+    background-color #0F0
+
+  .target
+    position absolute
+    left 0
+    top 0
+    height 100%
+    width 100%
+    z-index 2
+
+  .output
+    position absolute
+    left 0
+    bottom 0
+    background-color #EEE
+    box-shadow 0 0 10px RGBA(0, 0, 0, 0.4)
+    padding 10px
+    height 80px
+    width 100%
+    z-index 4
+
+    button
+      width 48%
+      margin 10px 1%
+      height 40px
+      border none
+      float left
+      background-color yellow
+      color black
