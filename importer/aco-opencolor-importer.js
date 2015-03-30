@@ -129,13 +129,13 @@ module.exports.read = function(buf) {
     //calculate color values and write them to the palette
     if (color.colorSpace === 0) {
       //RGB
-      color.w = color.w/256;
-      color.x = color.x/256;
-      color.y = color.y/256;
+      color.w = Math.floor(color.w/256);
+      color.x = Math.floor(color.x/256);
+      color.y = Math.floor(color.y/256);
 
       palette += "rgb("+color.w+","+color.x+","+color.y+");\n";
 
-      var c = new Color.fromHexString("rgb("+color.w+","+color.x+","+color.y+")");
+      var c = new Color.fromRgbArray([color.w, color.x, color.y]);
       xxxpalette.addColor(color.name, c);
 
     } 
